@@ -9,10 +9,10 @@
 
 > npx hardhat
 > create 'contracts', 'scripts' & 'test' folders inside the project folder.
-> npm install --save-dev @nomiclabs/hardhat-waffle 
-> npm install --save-dev ethereum-waffle 
-> npm install --save-dev chai 
-> npm install --save-dev @nomiclabs/hardhat-ethers ethers
+1. > npm install --save-dev @nomiclabs/hardhat-waffle 
+2. > npm install --save-dev ethereum-waffle 
+3. > npm install --save-dev chai 
+4. > npm install --save-dev @nomiclabs/hardhat-ethers ethers
 
 **COMPILATION**
 
