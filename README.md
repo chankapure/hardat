@@ -40,7 +40,7 @@ import below module to use **import "hardhat/console.sol"**
 1. **ALCHEMY_API_KEY** from https://dashboard.alchemyapi.io/ [You can see the key after creating the app]
 2. **ROPSTEN_PRIVATE_KEY** from Meta Mask extension.
 
-```
+```JavaScript
 module.exports = {
   solidity: "0.8.9",
   networks: {
