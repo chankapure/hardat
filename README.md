@@ -1,15 +1,15 @@
 # hardat
 
-**prerequisite:** <br/>
-Solidity<br/>
-Basic Javascript<br/>
+**PREREQUISITE:** <br/>
+1. Solidity
+2. Basic Javascript
 
 
 **INSTALLATION**
 
-npx hardhat
- > create 'contracts', 'scripts' & 'test' folders inside the project folder.
- > npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers
+> npx hardhat
+> create 'contracts', 'scripts' & 'test' folders inside the project folder.
+> npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers
 
 **COMPILATION**
 
