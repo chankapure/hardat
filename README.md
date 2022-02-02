@@ -1,9 +1,9 @@
 # hardat
 
-**PREREQUISITE:** <br/>
+**PREREQUISITE:**
+
 1. Solidity
 2. Basic Javascript
-
 
 **INSTALLATION**
 
@@ -21,3 +21,16 @@
 3. cd ./contracts
 4. npx hardhat compile
 
+-**TEST CASES USING CHAI**
+
+1. Transfer amount from Owner to Addr1
+2. Transfer amount from Owner to Addr2
+3. Transfer amount from Addr1 to Addr2
+4. Check sender balance before sending.
+5. Verify the account balances after successful transfer.
+
+Write all the above test cases in **'test'** folder.
+
+**DEBUGGING**
+
+import below module to use **"import 'hardhat/console.sol'"**
