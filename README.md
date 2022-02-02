@@ -34,3 +34,18 @@ Write all the above test cases in **'test'** folder.
 **DEBUGGING**
 
 import below module to use **import "hardhat/console.sol"**
+
+**hardhat.config.js**
+
+'''
+module.exports = {
+  solidity: "0.8.9",
+  networks: {
+    ropsten: {
+      url: `https://eth-ropsten.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
+      accounts: [`${ROPSTEN_PRIVATE_KEY}`],
+    },
+  },
+};
+'''
+
