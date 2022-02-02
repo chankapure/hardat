@@ -37,7 +37,7 @@ import below module to use **import "hardhat/console.sol"**
 
 **hardhat.config.js**
 
-'''
+```
 module.exports = {
   solidity: "0.8.9",
   networks: {
@@ -47,5 +47,5 @@ module.exports = {
     },
   },
 };
-'''
+```
 
