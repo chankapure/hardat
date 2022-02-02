@@ -8,7 +8,9 @@
 **INSTALLATION**
 
 > npx hardhat
-> create 'contracts', 'scripts' & 'test' folders inside the project folder.
+
+create 'contracts', 'scripts' & 'test' folders inside the project folder.
+
 1. > npm install --save-dev @nomiclabs/hardhat-waffle 
 2. > npm install --save-dev ethereum-waffle 
 3. > npm install --save-dev chai 
