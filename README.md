@@ -21,7 +21,7 @@
 3. cd ./contracts
 4. npx hardhat compile
 
--**TEST CASES USING CHAI**
+**TEST CASES USING CHAI**
 
 1. Transfer amount from Owner to Addr1
 2. Transfer amount from Owner to Addr2
