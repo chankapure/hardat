@@ -37,6 +37,9 @@ import below module to use **import "hardhat/console.sol"**
 
 **hardhat.config.js**
 
+1. **ALCHEMY_API_KEY** from https://dashboard.alchemyapi.io/ [You can see the key after creating the app]
+2. **ROPSTEN_PRIVATE_KEY** from Meta Mask extension.
+
 ```
 module.exports = {
   solidity: "0.8.9",
@@ -49,3 +52,5 @@ module.exports = {
 };
 ```
 
+**DEPLOYING TO LIVE NETWORK**
+> npx hardhat run ./scripts/deploy.js
